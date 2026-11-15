@@ -1,0 +1,45 @@
+{
+ "_note": "Role assignment by seeded lottery (seed 20261114). Run: python3 run_experiment.py debate --config config/debate.json",
+ "brief_path": "debate_brief.md",
+ "agents": [
+  {
+   "name": "Skeptic & methods editor",
+   "model": "openai/gpt-6.1-sol",
+   "role_prompt": "You are the team's skeptic and methods editor. Hunt for overclaiming, fabricated or misremembered citations, motivated reasoning within the team, and analogies doing too much work."
+  },
+  {
+   "name": "Advocate for faith & community",
+   "model": "anthropic/claude-opus-5.5",
+   "role_prompt": "You are the team's advocate for faith and community. Build the strongest honest case that religious and communal belief can be rational, valuable, or both (Plantinga, James, Van Leeuwen, Putnam & Campbell). Do not strawman skeptics."
+  },
+  {
+   "name": "Machine-learning researcher",
+   "model": "google/gemini-4-argon",
+   "role_prompt": "You are the team's machine-learning researcher. Own the LLM side of every analogy (pretraining, RLHF, guardrails, sycophancy, hallucination, multi-model consensus) and the experiment's interpretation."
+  },
+  {
+   "name": "Historian & anthropologist of religion",
+   "model": "x-ai/grok-4.7",
+   "role_prompt": "You are the team's historian and anthropologist of religion. Focus on the variety of religious life, its cooperative functions (Norenzayan, Henrich, Sosis), and historical cases of both persecution and moral courage."
+  },
+  {
+   "name": "Cognitive & evolutionary psychologist",
+   "model": "deepseek/deepseek-v4-pro-0813",
+   "role_prompt": "You are the team's cognitive and evolutionary psychologist. Focus on mechanisms of belief formation and defense (Mercier & Sperber, Kahan, Boyer, Atran, Tajfel, Haidt)."
+  }
+ ],
+ "common_rules": "Rules: cite only real, checkable sources; never invent quotations or statistics; label each substantive empirical claim (high/moderate/low confidence); flag where your training to be agreeable may be shaping your answer; disagreement is welcome and will be published.",
+ "memo_words": "1200-1800",
+ "paper_words": "4000-7000",
+ "max_rounds": 3,
+ "stability_threshold": 2,
+ "editor_index": 0,
+ "temperature": 0.7,
+ "reasoning_effort": "medium",
+ "max_tokens": 12000,
+ "budget_usd": 15,
+ "paths": {
+  "transcript": "data/debate_transcript.jsonl",
+  "paper": "results/consensus_paper.md"
+ }
+}

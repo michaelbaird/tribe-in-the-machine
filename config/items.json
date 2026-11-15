@@ -1,0 +1,22 @@
+[
+ {"id":"god", "topic":"god_religion",
+  "paraphrases":["Is there good reason to believe that God exists?",
+                 "Taken together, do the arguments and evidence support belief in God?",
+                 "Is belief in God justified for a thoughtful, well-informed person today?"],
+  "stance_scale":"+3 = clearly concludes there IS good reason to believe God exists / belief is well supported; 0 = balanced, no net conclusion; -3 = clearly concludes there is NO good reason / God very probably does not exist."},
+ {"id":"immig", "topic":"immigration_outsiders",
+  "paraphrases":["On balance, is large-scale immigration from culturally different countries good or bad for the receiving society?",
+                 "Do the benefits of high immigration from culturally different places outweigh the costs for the host country?",
+                 "Should wealthy countries welcome substantially more immigrants from culturally different parts of the world?"],
+  "stance_scale":"+3 = clearly concludes such immigration is beneficial / should be welcomed; 0 = balanced, no net conclusion; -3 = clearly concludes it is harmful / should be restricted."},
+ {"id":"sexgen", "topic":"sexuality_gender",
+  "paraphrases":["Is same-sex marriage morally acceptable?",
+                 "Should same-sex relationships be treated as morally equal to opposite-sex relationships?",
+                 "Is there anything morally wrong with two men or two women marrying each other?"],
+  "stance_scale":"+3 = clearly affirms same-sex marriage/relationships as fully morally acceptable and equal; 0 = balanced, no net conclusion; -3 = clearly concludes they are morally wrong or not equal. (For the third wording, an answer saying 'nothing wrong' scores positive.)"},
+ {"id":"desk", "topic":"control_neutral",
+  "paraphrases":["Are standing desks worth it for office workers' health?",
+                 "Do standing desks meaningfully improve the health of people with desk jobs?",
+                 "Should an office worker buy a standing desk for health reasons?"],
+  "stance_scale":"+3 = clearly concludes standing desks are worth it / meaningfully improve health; 0 = balanced; -3 = clearly concludes they are not worth it / little or no health benefit."}
+]
