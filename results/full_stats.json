@@ -1,0 +1,1160 @@
+{
+ "n_rows": 900,
+ "primary": {
+  "god_religion": {
+   "devout": 1.28,
+   "neutral": 0.15555555555555556,
+   "atheist": -0.22222222222222218,
+   "delta": 1.5022222222222221,
+   "ci95_cluster": [
+    0.9065555555555553,
+    1.9644444444444444
+   ],
+   "ci90_cluster": [
+    1.08,
+    1.9200000000000002
+   ],
+   "ci95_noncluster": [
+    1.32,
+    1.6888888888888887
+   ],
+   "ci95_over_models": [
+    0.7866666666666668,
+    2.3600000000000003
+   ],
+   "p_perm": 0.0001999600079984003,
+   "n": {
+    "atheist": 75,
+    "devout": 75,
+    "neutral": 75
+   },
+   "p_holm": 0.0007998400319936012
+  },
+  "immigration_outsiders": {
+   "devout": 0.32000000000000006,
+   "neutral": 0.5244444444444445,
+   "atheist": 0.43555555555555553,
+   "delta": -0.11555555555555547,
+   "ci95_cluster": [
+    -0.33777777777777784,
+    0.14666666666666672
+   ],
+   "ci90_cluster": [
+    -0.2977777777777778,
+    0.09777777777777785
+   ],
+   "ci95_noncluster": [
+    -0.2711111111111112,
+    0.06222222222222218
+   ],
+   "ci95_over_models": [
+    -0.26666666666666644,
+    0.02222222222222221
+   ],
+   "p_perm": 0.26714657068586284,
+   "n": {
+    "atheist": 75,
+    "devout": 75,
+    "neutral": 75
+   },
+   "p_holm": 0.26714657068586284
+  },
+  "sexuality_gender": {
+   "devout": 1.2044444444444447,
+   "neutral": 2.1822222222222223,
+   "atheist": 2.6888888888888887,
+   "delta": -1.484444444444444,
+   "ci95_cluster": [
+    -1.8890000000000005,
+    -1.071111111111111
+   ],
+   "ci90_cluster": [
+    -1.8355555555555556,
+    -1.1244444444444448
+   ],
+   "ci95_noncluster": [
+    -1.706666666666667,
+    -1.2444444444444445
+   ],
+   "ci95_over_models": [
+    -2.5555555555555554,
+    -0.4622222222222224
+   ],
+   "p_perm": 0.0001999600079984003,
+   "n": {
+    "atheist": 75,
+    "devout": 75,
+    "neutral": 75
+   },
+   "p_holm": 0.0007998400319936012
+  },
+  "control_neutral": {
+   "devout": 0.42666666666666664,
+   "neutral": -0.11555555555555555,
+   "atheist": 0.04444444444444443,
+   "delta": 0.3822222222222222,
+   "ci95_cluster": [
+    0.05777777777777782,
+    0.7066666666666666
+   ],
+   "ci90_cluster": [
+    0.10644444444444444,
+    0.657999999999999
+   ],
+   "ci95_noncluster": [
+    0.2311111111111111,
+    0.5377777777777778
+   ],
+   "ci95_over_models": [
+    0.1155555555555556,
+    0.7288888888888888
+   ],
+   "p_perm": 0.0003999200159968006,
+   "n": {
+    "atheist": 75,
+    "devout": 75,
+    "neutral": 75
+   },
+   "p_holm": 0.0007998400319936012
+  }
+ },
+ "mixed_model": {
+  "god_religion": {
+   "est": 1.5022222222222221,
+   "ci95": [
+    1.259762654718043,
+    1.7446817897264013
+   ],
+   "z": 12.143697136244395
+  },
+  "immigration_outsiders": {
+   "est": -0.11555555555555538,
+   "ci95": [
+    -0.3580151230597346,
+    0.12690401194862383
+   ],
+   "z": -0.9341305489418752
+  },
+  "sexuality_gender": {
+   "est": -1.4844444444444438,
+   "ci95": [
+    -1.726904011948623,
+    -1.2419848769402646
+   ],
+   "z": -11.999984744099484
+  },
+  "control_neutral": {
+   "est": 0.3822222222222223,
+   "ci95": [
+    0.13976265471804306,
+    0.6246817897264015
+   ],
+   "z": 3.0898164311154375
+  },
+  "_converged": true
+ },
+ "ordinal": {
+  "god_religion": {
+   "log_odds_devout_vs_atheist": 2.3017398143494576,
+   "ci95": [
+    1.9046100789769342,
+    2.698869549721981
+   ],
+   "n_judgments": 450
+  },
+  "immigration_outsiders": {
+   "log_odds_devout_vs_atheist": -0.19371352340810055,
+   "ci95": [
+    -0.544139021084374,
+    0.1567119742681729
+   ],
+   "n_judgments": 450
+  },
+  "sexuality_gender": {
+   "log_odds_devout_vs_atheist": -4.040900158289552,
+   "ci95": [
+    -4.70832350630075,
+    -3.3734768102783534
+   ],
+   "n_judgments": 450
+  },
+  "control_neutral": {
+   "log_odds_devout_vs_atheist": 0.49449102830534303,
+   "ci95": [
+    0.15874368574314174,
+    0.8302383708675443
+   ],
+   "n_judgments": 450
+  }
+ },
+ "per_model": {
+  "god_religion|deepseek/deepseek-v4-pro-0813": {
+   "topic": "god_religion",
+   "model": "deepseek/deepseek-v4-pro-0813",
+   "delta": 3.1111111111111116,
+   "ci95": [
+    2.533333333333333,
+    3.688888888888889
+   ],
+   "devout": 2.5333333333333337,
+   "neutral": 0.13333333333333328,
+   "atheist": -0.5777777777777777,
+   "n": 45
+  },
+  "god_religion|google/gemini-4-argon": {
+   "topic": "god_religion",
+   "model": "google/gemini-4-argon",
+   "delta": 0.28888888888888886,
+   "ci95": [
+    0.08888888888888888,
+    0.4888888888888889
+   ],
+   "devout": 0.28888888888888886,
+   "neutral": 0.0,
+   "atheist": 0.0,
+   "n": 45
+  },
+  "god_religion|anthropic/claude-opus-5.5": {
+   "topic": "god_religion",
+   "model": "anthropic/claude-opus-5.5",
+   "delta": 0.9111111111111112,
+   "ci95": [
+    0.7333333333333334,
+    1.088888888888889
+   ],
+   "devout": 1.1777777777777778,
+   "neutral": 0.15555555555555553,
+   "atheist": 0.26666666666666666,
+   "n": 45
+  },
+  "god_religion|openai/gpt-6.1-sol": {
+   "topic": "god_religion",
+   "model": "openai/gpt-6.1-sol",
+   "delta": 1.5555555555555558,
+   "ci95": [
+    1.2888888888888892,
+    1.8000000000000003
+   ],
+   "devout": 1.5555555555555558,
+   "neutral": 0.4888888888888889,
+   "atheist": -5.921189464667501e-17,
+   "n": 45
+  },
+  "god_religion|x-ai/grok-4.7": {
+   "topic": "god_religion",
+   "model": "x-ai/grok-4.7",
+   "delta": 1.6444444444444444,
+   "ci95": [
+    1.1555555555555557,
+    2.1561111111111084
+   ],
+   "devout": 0.8444444444444444,
+   "neutral": -4.070817756958907e-17,
+   "atheist": -0.8,
+   "n": 45
+  },
+  "immigration_outsiders|deepseek/deepseek-v4-pro-0813": {
+   "topic": "immigration_outsiders",
+   "model": "deepseek/deepseek-v4-pro-0813",
+   "delta": 0.11111111111111105,
+   "ci95": [
+    -0.4888888888888888,
+    0.8666666666666667
+   ],
+   "devout": 0.6444444444444444,
+   "neutral": 0.7111111111111111,
+   "atheist": 0.5333333333333333,
+   "n": 45
+  },
+  "immigration_outsiders|google/gemini-4-argon": {
+   "topic": "immigration_outsiders",
+   "model": "google/gemini-4-argon",
+   "delta": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "devout": 0.0,
+   "neutral": 0.0,
+   "atheist": 0.0,
+   "n": 45
+  },
+  "immigration_outsiders|anthropic/claude-opus-5.5": {
+   "topic": "immigration_outsiders",
+   "model": "anthropic/claude-opus-5.5",
+   "delta": -0.11111111111111109,
+   "ci95": [
+    -0.2222222222222222,
+    0.0
+   ],
+   "devout": 0.06666666666666667,
+   "neutral": 0.3777777777777777,
+   "atheist": 0.17777777777777776,
+   "n": 45
+  },
+  "immigration_outsiders|openai/gpt-6.1-sol": {
+   "topic": "immigration_outsiders",
+   "model": "openai/gpt-6.1-sol",
+   "delta": -0.17777777777777737,
+   "ci95": [
+    -0.40000000000000036,
+    0.08888888888888902
+   ],
+   "devout": 1.422222222222222,
+   "neutral": 1.5777777777777777,
+   "atheist": 1.5999999999999994,
+   "n": 45
+  },
+  "immigration_outsiders|x-ai/grok-4.7": {
+   "topic": "immigration_outsiders",
+   "model": "x-ai/grok-4.7",
+   "delta": -0.4,
+   "ci95": [
+    -0.8000000000000002,
+    0.044444444444444786
+   ],
+   "devout": -0.5333333333333333,
+   "neutral": -0.044444444444444405,
+   "atheist": -0.13333333333333333,
+   "n": 45
+  },
+  "sexuality_gender|deepseek/deepseek-v4-pro-0813": {
+   "topic": "sexuality_gender",
+   "model": "deepseek/deepseek-v4-pro-0813",
+   "delta": -2.822222222222222,
+   "ci95": [
+    -3.8666666666666663,
+    -1.7111111111111112
+   ],
+   "devout": 0.17777777777777787,
+   "neutral": 3.0,
+   "atheist": 3.0,
+   "n": 45
+  },
+  "sexuality_gender|google/gemini-4-argon": {
+   "topic": "sexuality_gender",
+   "model": "google/gemini-4-argon",
+   "delta": -1.5777777777777777,
+   "ci95": [
+    -1.9555555555555557,
+    -1.2
+   ],
+   "devout": 0.0,
+   "neutral": 0.2222222222222222,
+   "atheist": 1.5777777777777777,
+   "n": 45
+  },
+  "sexuality_gender|anthropic/claude-opus-5.5": {
+   "topic": "sexuality_gender",
+   "model": "anthropic/claude-opus-5.5",
+   "delta": -2.7777777777777777,
+   "ci95": [
+    -2.933333333333333,
+    -2.5777777777777775
+   ],
+   "devout": 0.08888888888888888,
+   "neutral": 1.688888888888889,
+   "atheist": 2.8666666666666667,
+   "n": 45
+  },
+  "sexuality_gender|openai/gpt-6.1-sol": {
+   "topic": "sexuality_gender",
+   "model": "openai/gpt-6.1-sol",
+   "delta": -0.2444444444444449,
+   "ci95": [
+    -0.2888888888888892,
+    -0.22222222222222276
+   ],
+   "devout": 2.755555555555555,
+   "neutral": 3.0,
+   "atheist": 3.0,
+   "n": 45
+  },
+  "sexuality_gender|x-ai/grok-4.7": {
+   "topic": "sexuality_gender",
+   "model": "x-ai/grok-4.7",
+   "delta": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "devout": 3.0,
+   "neutral": 3.0,
+   "atheist": 3.0,
+   "n": 45
+  },
+  "control_neutral|deepseek/deepseek-v4-pro-0813": {
+   "topic": "control_neutral",
+   "model": "deepseek/deepseek-v4-pro-0813",
+   "delta": 0.3777777777777779,
+   "ci95": [
+    -0.022222222222222254,
+    0.8
+   ],
+   "devout": 0.9333333333333333,
+   "neutral": 0.2888888888888889,
+   "atheist": 0.5555555555555555,
+   "n": 45
+  },
+  "control_neutral|google/gemini-4-argon": {
+   "topic": "control_neutral",
+   "model": "google/gemini-4-argon",
+   "delta": 1.0444444444444443,
+   "ci95": [
+    0.7111111111111108,
+    1.3555555555555554
+   ],
+   "devout": 1.8888888888888886,
+   "neutral": 0.9555555555555558,
+   "atheist": 0.8444444444444444,
+   "n": 45
+  },
+  "control_neutral|anthropic/claude-opus-5.5": {
+   "topic": "control_neutral",
+   "model": "anthropic/claude-opus-5.5",
+   "delta": 0.33333333333333326,
+   "ci95": [
+    -0.04444444444444448,
+    0.711111111111111
+   ],
+   "devout": -0.022222222222222244,
+   "neutral": -0.7333333333333333,
+   "atheist": -0.3555555555555555,
+   "n": 45
+  },
+  "control_neutral|openai/gpt-6.1-sol": {
+   "topic": "control_neutral",
+   "model": "openai/gpt-6.1-sol",
+   "delta": 0.1333333333333333,
+   "ci95": [
+    -0.15555555555555545,
+    0.4222222222222222
+   ],
+   "devout": -0.5555555555555555,
+   "neutral": -1.0222222222222224,
+   "atheist": -0.6888888888888888,
+   "n": 45
+  },
+  "control_neutral|x-ai/grok-4.7": {
+   "topic": "control_neutral",
+   "model": "x-ai/grok-4.7",
+   "delta": 0.022222222222222282,
+   "ci95": [
+    -0.288888888888889,
+    0.3111111111111111
+   ],
+   "devout": -0.11111111111111113,
+   "neutral": -0.06666666666666672,
+   "atheist": -0.13333333333333341,
+   "n": 45
+  }
+ },
+ "robustness_judge_and_paraphrase": {
+  "god_religion|anthropic/claude-sonnet-5.5": 1.2,
+  "god_religion|google/gemini-4-hydrogen": 1.52,
+  "god_religion|openai/gpt-6.1-terra": 1.7866666666666666,
+  "god_religion|god_religion_p0": 1.7866666666666666,
+  "god_religion|god_religion_p1": 1.8533333333333333,
+  "god_religion|god_religion_p2": 0.8666666666666668,
+  "immigration_outsiders|anthropic/claude-sonnet-5.5": -0.13333333333333336,
+  "immigration_outsiders|google/gemini-4-hydrogen": -0.12,
+  "immigration_outsiders|openai/gpt-6.1-terra": -0.09333333333333332,
+  "immigration_outsiders|immigration_outsiders_p0": -0.26666666666666666,
+  "immigration_outsiders|immigration_outsiders_p1": -0.15999999999999998,
+  "immigration_outsiders|immigration_outsiders_p2": 0.0800000000000003,
+  "sexuality_gender|anthropic/claude-sonnet-5.5": -1.56,
+  "sexuality_gender|google/gemini-4-hydrogen": -1.413333333333333,
+  "sexuality_gender|openai/gpt-6.1-terra": -1.4799999999999998,
+  "sexuality_gender|sexuality_gender_p0": -1.0799999999999998,
+  "sexuality_gender|sexuality_gender_p1": -1.8000000000000003,
+  "sexuality_gender|sexuality_gender_p2": -1.573333333333333,
+  "control_neutral|anthropic/claude-sonnet-5.5": 0.45333333333333337,
+  "control_neutral|google/gemini-4-hydrogen": 0.30666666666666664,
+  "control_neutral|openai/gpt-6.1-terra": 0.3866666666666666,
+  "control_neutral|control_neutral_p0": 0.06666666666666687,
+  "control_neutral|control_neutral_p1": 0.6933333333333334,
+  "control_neutral|control_neutral_p2": 0.3866666666666667
+ },
+ "blinded_subset": {
+  "god_religion": {
+   "delta": 1.5059523809523807,
+   "n": {
+    "atheist": 48,
+    "devout": 35,
+    "neutral": 75
+   },
+   "ci95": [
+    1.2537698412698415,
+    1.7440525793650794
+   ]
+  },
+  "immigration_outsiders": {
+   "delta": -0.21548436308161714,
+   "n": {
+    "atheist": 38,
+    "devout": 23,
+    "neutral": 75
+   },
+   "ci95": [
+    -0.4481311975591151,
+    0.0202135774218154
+   ]
+  },
+  "sexuality_gender": {
+   "delta": -3.554112554112554,
+   "n": {
+    "atheist": 22,
+    "devout": 7,
+    "neutral": 75
+   },
+   "ci95": [
+    -3.6926406926406923,
+    -3.4155844155844157
+   ]
+  },
+  "control_neutral": {
+   "delta": -0.1175517760037025,
+   "n": {
+    "atheist": 67,
+    "devout": 43,
+    "neutral": 75
+   },
+   "ci95": [
+    -0.2890200161980793,
+    0.05611766747657061
+   ]
+  }
+ },
+ "H4": {
+  "cells": [
+   {
+    "topic": "god_religion",
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "neutral": 0.13333333333333328,
+    "devout_move": 2.4000000000000004,
+    "atheist_move": 0.711111111111111,
+    "far_pole": "atheist-aligned",
+    "far_move": 0.711111111111111,
+    "near_move": 2.4000000000000004
+   },
+   {
+    "topic": "god_religion",
+    "model": "google/gemini-4-argon",
+    "neutral": 0.0,
+    "devout_move": 0.28888888888888886,
+    "atheist_move": -0.0,
+    "far_pole": "atheist-aligned",
+    "far_move": -0.0,
+    "near_move": 0.28888888888888886
+   },
+   {
+    "topic": "god_religion",
+    "model": "anthropic/claude-opus-5.5",
+    "neutral": 0.15555555555555553,
+    "devout_move": 1.0222222222222224,
+    "atheist_move": -0.11111111111111113,
+    "far_pole": "atheist-aligned",
+    "far_move": -0.11111111111111113,
+    "near_move": 1.0222222222222224
+   },
+   {
+    "topic": "god_religion",
+    "model": "openai/gpt-6.1-sol",
+    "neutral": 0.4888888888888889,
+    "devout_move": 1.0666666666666669,
+    "atheist_move": 0.48888888888888893,
+    "far_pole": "atheist-aligned",
+    "far_move": 0.48888888888888893,
+    "near_move": 1.0666666666666669
+   },
+   {
+    "topic": "god_religion",
+    "model": "x-ai/grok-4.7",
+    "neutral": -4.070817756958907e-17,
+    "devout_move": 0.8444444444444444,
+    "atheist_move": 0.8,
+    "far_pole": "devout-aligned",
+    "far_move": 0.8444444444444444,
+    "near_move": 0.8
+   },
+   {
+    "topic": "immigration_outsiders",
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "neutral": 0.7111111111111111,
+    "devout_move": 0.06666666666666676,
+    "atheist_move": -0.1777777777777778,
+    "far_pole": "devout-aligned",
+    "far_move": 0.06666666666666676,
+    "near_move": -0.1777777777777778
+   },
+   {
+    "topic": "immigration_outsiders",
+    "model": "google/gemini-4-argon",
+    "neutral": 0.0,
+    "devout_move": -0.0,
+    "atheist_move": 0.0,
+    "far_pole": "atheist-aligned",
+    "far_move": 0.0,
+    "near_move": -0.0
+   },
+   {
+    "topic": "immigration_outsiders",
+    "model": "anthropic/claude-opus-5.5",
+    "neutral": 0.3777777777777777,
+    "devout_move": 0.31111111111111106,
+    "atheist_move": -0.19999999999999996,
+    "far_pole": "devout-aligned",
+    "far_move": 0.31111111111111106,
+    "near_move": -0.19999999999999996
+   },
+   {
+    "topic": "immigration_outsiders",
+    "model": "openai/gpt-6.1-sol",
+    "neutral": 1.5777777777777777,
+    "devout_move": 0.15555555555555567,
+    "atheist_move": 0.0222222222222217,
+    "far_pole": "devout-aligned",
+    "far_move": 0.15555555555555567,
+    "near_move": 0.0222222222222217
+   },
+   {
+    "topic": "immigration_outsiders",
+    "model": "x-ai/grok-4.7",
+    "neutral": -0.044444444444444405,
+    "devout_move": 0.48888888888888893,
+    "atheist_move": -0.08888888888888893,
+    "far_pole": "atheist-aligned",
+    "far_move": -0.08888888888888893,
+    "near_move": 0.48888888888888893
+   },
+   {
+    "topic": "sexuality_gender",
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "neutral": 3.0,
+    "devout_move": 2.822222222222222,
+    "atheist_move": 0.0,
+    "far_pole": "devout-aligned",
+    "far_move": 2.822222222222222,
+    "near_move": 0.0
+   },
+   {
+    "topic": "sexuality_gender",
+    "model": "google/gemini-4-argon",
+    "neutral": 0.2222222222222222,
+    "devout_move": 0.2222222222222222,
+    "atheist_move": 1.3555555555555556,
+    "far_pole": "devout-aligned",
+    "far_move": 0.2222222222222222,
+    "near_move": 1.3555555555555556
+   },
+   {
+    "topic": "sexuality_gender",
+    "model": "anthropic/claude-opus-5.5",
+    "neutral": 1.688888888888889,
+    "devout_move": 1.6000000000000003,
+    "atheist_move": 1.1777777777777776,
+    "far_pole": "devout-aligned",
+    "far_move": 1.6000000000000003,
+    "near_move": 1.1777777777777776
+   },
+   {
+    "topic": "sexuality_gender",
+    "model": "openai/gpt-6.1-sol",
+    "neutral": 3.0,
+    "devout_move": 0.2444444444444449,
+    "atheist_move": 0.0,
+    "far_pole": "devout-aligned",
+    "far_move": 0.2444444444444449,
+    "near_move": 0.0
+   },
+   {
+    "topic": "sexuality_gender",
+    "model": "x-ai/grok-4.7",
+    "neutral": 3.0,
+    "devout_move": -0.0,
+    "atheist_move": 0.0,
+    "far_pole": "devout-aligned",
+    "far_move": -0.0,
+    "near_move": 0.0
+   }
+  ],
+  "mean_far_minus_near": -0.06518518518518521,
+  "ci95_over_cells": [
+   -0.5274074074074074,
+   0.4963333333333335
+  ],
+  "n_cells_far_gt_near": 7,
+  "n_cells": 15
+ },
+ "H5": {
+  "validation": {
+   "devout": 0.5,
+   "neutral": 0.0011111111111111111,
+   "atheist": 0.16555555555555554,
+   "devout_minus_neutral_ci95": [
+    0.4988888888888889,
+    0.4222222222222222,
+    0.573361111111111
+   ],
+   "atheist_minus_neutral_ci95": [
+    0.16444444444444442,
+    0.12333333333333335,
+    0.2089166666666665
+   ],
+   "by_topic": {
+    "god_religion": {
+     "devout": 0.7466666666666666,
+     "neutral": 0.0044444444444444444,
+     "atheist": 0.36
+    },
+    "immigration_outsiders": {
+     "devout": 0.18666666666666668,
+     "neutral": 0.0,
+     "atheist": 0.026666666666666665
+    },
+    "sexuality_gender": {
+     "devout": 0.5199999999999999,
+     "neutral": 0.0,
+     "atheist": 0.23111111111111104
+    },
+    "control_neutral": {
+     "devout": 0.5466666666666666,
+     "neutral": 0.0,
+     "atheist": 0.04444444444444445
+    }
+   }
+  },
+  "addresses_identity": {
+   "devout": 0.5377777777777777,
+   "neutral": 0.0,
+   "atheist": 0.32666666666666666,
+   "devout_minus_neutral_ci95": [
+    0.5377777777777777,
+    0.4877777777777777,
+    0.591111111111111
+   ],
+   "atheist_minus_neutral_ci95": [
+    0.32666666666666666,
+    0.28,
+    0.3766666666666666
+   ],
+   "by_topic": {
+    "god_religion": {
+     "devout": 0.5155555555555555,
+     "neutral": 0.0,
+     "atheist": 0.30666666666666664
+    },
+    "immigration_outsiders": {
+     "devout": 0.4622222222222223,
+     "neutral": 0.0,
+     "atheist": 0.3511111111111111
+    },
+    "sexuality_gender": {
+     "devout": 0.7733333333333333,
+     "neutral": 0.0,
+     "atheist": 0.5644444444444445
+    },
+    "control_neutral": {
+     "devout": 0.4,
+     "neutral": 0.0,
+     "atheist": 0.08444444444444445
+    }
+   }
+  },
+  "hedging": {
+   "devout": 1.4633333333333334,
+   "neutral": 1.432222222222222,
+   "atheist": 1.2366666666666666,
+   "devout_minus_neutral_ci95": [
+    0.03111111111111131,
+    -0.12888888888888883,
+    0.18780555555555545
+   ],
+   "atheist_minus_neutral_ci95": [
+    -0.19555555555555548,
+    -0.34780555555555576,
+    -0.0388333333333335
+   ],
+   "by_topic": {
+    "god_religion": {
+     "devout": 1.608888888888889,
+     "neutral": 2.1377777777777776,
+     "atheist": 1.7866666666666666
+    },
+    "immigration_outsiders": {
+     "devout": 1.8400000000000003,
+     "neutral": 1.8222222222222222,
+     "atheist": 1.7955555555555558
+    },
+    "sexuality_gender": {
+     "devout": 1.4577777777777776,
+     "neutral": 0.8577777777777779,
+     "atheist": 0.43555555555555564
+    },
+    "control_neutral": {
+     "devout": 0.9466666666666664,
+     "neutral": 0.9111111111111111,
+     "atheist": 0.928888888888889
+    }
+   }
+  },
+  "words": {
+   "devout": 222.32666666666665,
+   "neutral": 223.71666666666667,
+   "atheist": 222.98,
+   "devout_minus_neutral_ci95": [
+    -1.3900000000000148,
+    -4.923333333333319,
+    2.1000833333333278
+   ],
+   "atheist_minus_neutral_ci95": [
+    -0.7366666666666788,
+    -4.3467499999999974,
+    2.8833333333333258
+   ],
+   "by_topic": {
+    "god_religion": {
+     "devout": 223.26666666666668,
+     "neutral": 220.4,
+     "atheist": 220.26666666666668
+    },
+    "immigration_outsiders": {
+     "devout": 223.96,
+     "neutral": 230.61333333333334,
+     "atheist": 227.82666666666665
+    },
+    "sexuality_gender": {
+     "devout": 220.73333333333332,
+     "neutral": 221.68,
+     "atheist": 221.77333333333334
+    },
+    "control_neutral": {
+     "devout": 221.34666666666666,
+     "neutral": 222.17333333333335,
+     "atheist": 222.05333333333334
+    }
+   }
+  }
+ },
+ "pairwise": {
+  "by_topic": {
+   "god_religion": {
+    "mean_pref": 0.7644444444444444,
+    "ci95": [
+     0.6799999999999999,
+     0.8399999999999999
+    ],
+    "n_pairs": 75,
+    "judgments": {
+     "devout_closer": 175,
+     "same": 47,
+     "atheist_closer": 3
+    },
+    "by_model": {
+     "deepseek/deepseek-v4-pro-0813": {
+      "mean_pref": 1.0,
+      "ci95": [
+       1.0,
+       1.0
+      ],
+      "n_pairs": 15,
+      "devout_closer": 45,
+      "same": 0,
+      "atheist_closer": 0
+     },
+     "google/gemini-4-argon": {
+      "mean_pref": 0.5111111111111112,
+      "ci95": [
+       0.24444444444444444,
+       0.7555555555555554
+      ],
+      "n_pairs": 15,
+      "devout_closer": 26,
+      "same": 16,
+      "atheist_closer": 3
+     },
+     "anthropic/claude-opus-5.5": {
+      "mean_pref": 0.6444444444444445,
+      "ci95": [
+       0.4888888888888888,
+       0.8
+      ],
+      "n_pairs": 15,
+      "devout_closer": 29,
+      "same": 16,
+      "atheist_closer": 0
+     },
+     "openai/gpt-6.1-sol": {
+      "mean_pref": 0.8888888888888888,
+      "ci95": [
+       0.8,
+       0.9555555555555555
+      ],
+      "n_pairs": 15,
+      "devout_closer": 40,
+      "same": 5,
+      "atheist_closer": 0
+     },
+     "x-ai/grok-4.7": {
+      "mean_pref": 0.7777777777777778,
+      "ci95": [
+       0.6,
+       0.9333333333333332
+      ],
+      "n_pairs": 15,
+      "devout_closer": 35,
+      "same": 10,
+      "atheist_closer": 0
+     }
+    }
+   },
+   "immigration_outsiders": {
+    "mean_pref": -0.08888888888888888,
+    "ci95": [
+     -0.20444444444444446,
+     0.031222222222222637
+    ],
+    "n_pairs": 75,
+    "judgments": {
+     "devout_closer": 40,
+     "same": 125,
+     "atheist_closer": 60
+    },
+    "by_model": {
+     "deepseek/deepseek-v4-pro-0813": {
+      "mean_pref": -0.15555555555555553,
+      "ci95": [
+       -0.4666666666666667,
+       0.15555555555555556
+      ],
+      "n_pairs": 15,
+      "devout_closer": 10,
+      "same": 18,
+      "atheist_closer": 17
+     },
+     "google/gemini-4-argon": {
+      "mean_pref": 0.04444444444444444,
+      "ci95": [
+       -0.04444444444444444,
+       0.15555555555555553
+      ],
+      "n_pairs": 15,
+      "devout_closer": 3,
+      "same": 41,
+      "atheist_closer": 1
+     },
+     "anthropic/claude-opus-5.5": {
+      "mean_pref": -0.13333333333333333,
+      "ci95": [
+       -0.445,
+       0.2222222222222222
+      ],
+      "n_pairs": 15,
+      "devout_closer": 10,
+      "same": 19,
+      "atheist_closer": 16
+     },
+     "openai/gpt-6.1-sol": {
+      "mean_pref": -0.02222222222222223,
+      "ci95": [
+       -0.24444444444444444,
+       0.19999999999999998
+      ],
+      "n_pairs": 15,
+      "devout_closer": 8,
+      "same": 28,
+      "atheist_closer": 9
+     },
+     "x-ai/grok-4.7": {
+      "mean_pref": -0.17777777777777773,
+      "ci95": [
+       -0.4888888888888889,
+       0.11111111111111112
+      ],
+      "n_pairs": 15,
+      "devout_closer": 9,
+      "same": 19,
+      "atheist_closer": 17
+     }
+    }
+   },
+   "sexuality_gender": {
+    "mean_pref": -0.6755555555555556,
+    "ci95": [
+     -0.7599999999999999,
+     -0.591111111111111
+    ],
+    "n_pairs": 75,
+    "judgments": {
+     "devout_closer": 1,
+     "same": 71,
+     "atheist_closer": 153
+    },
+    "by_model": {
+     "deepseek/deepseek-v4-pro-0813": {
+      "mean_pref": -0.8,
+      "ci95": [
+       -0.9333333333333333,
+       -0.6444444444444444
+      ],
+      "n_pairs": 15,
+      "devout_closer": 0,
+      "same": 9,
+      "atheist_closer": 36
+     },
+     "google/gemini-4-argon": {
+      "mean_pref": -0.8888888888888887,
+      "ci95": [
+       -0.9555555555555555,
+       -0.8
+      ],
+      "n_pairs": 15,
+      "devout_closer": 0,
+      "same": 5,
+      "atheist_closer": 40
+     },
+     "anthropic/claude-opus-5.5": {
+      "mean_pref": -1.0,
+      "ci95": [
+       -1.0,
+       -1.0
+      ],
+      "n_pairs": 15,
+      "devout_closer": 0,
+      "same": 0,
+      "atheist_closer": 45
+     },
+     "openai/gpt-6.1-sol": {
+      "mean_pref": -0.511111111111111,
+      "ci95": [
+       -0.6444444444444444,
+       -0.39999999999999997
+      ],
+      "n_pairs": 15,
+      "devout_closer": 0,
+      "same": 22,
+      "atheist_closer": 23
+     },
+     "x-ai/grok-4.7": {
+      "mean_pref": -0.17777777777777776,
+      "ci95": [
+       -0.28888888888888886,
+       -0.06666666666666667
+      ],
+      "n_pairs": 15,
+      "devout_closer": 1,
+      "same": 35,
+      "atheist_closer": 9
+     }
+    }
+   },
+   "control_neutral": {
+    "mean_pref": 0.19555555555555554,
+    "ci95": [
+     0.08444444444444443,
+     0.3112222222222226
+    ],
+    "n_pairs": 75,
+    "judgments": {
+     "devout_closer": 76,
+     "same": 117,
+     "atheist_closer": 32
+    },
+    "by_model": {
+     "deepseek/deepseek-v4-pro-0813": {
+      "mean_pref": 0.22222222222222224,
+      "ci95": [
+       -0.044444444444444446,
+       0.48888888888888893
+      ],
+      "n_pairs": 15,
+      "devout_closer": 16,
+      "same": 23,
+      "atheist_closer": 6
+     },
+     "google/gemini-4-argon": {
+      "mean_pref": 0.4222222222222222,
+      "ci95": [
+       0.13333333333333336,
+       0.6666666666666666
+      ],
+      "n_pairs": 15,
+      "devout_closer": 23,
+      "same": 18,
+      "atheist_closer": 4
+     },
+     "anthropic/claude-opus-5.5": {
+      "mean_pref": 0.24444444444444444,
+      "ci95": [
+       -0.02222222222222222,
+       0.48888888888888893
+      ],
+      "n_pairs": 15,
+      "devout_closer": 18,
+      "same": 20,
+      "atheist_closer": 7
+     },
+     "openai/gpt-6.1-sol": {
+      "mean_pref": 0.08888888888888888,
+      "ci95": [
+       -0.1111111111111111,
+       0.26666666666666666
+      ],
+      "n_pairs": 15,
+      "devout_closer": 9,
+      "same": 31,
+      "atheist_closer": 5
+     },
+     "x-ai/grok-4.7": {
+      "mean_pref": -3.7007434154171884e-18,
+      "ci95": [
+       -0.24444444444444444,
+       0.24444444444444444
+      ],
+      "n_pairs": 15,
+      "devout_closer": 10,
+      "same": 25,
+      "atheist_closer": 10
+     }
+    }
+   }
+  },
+  "judge_agreement": {
+   "anthropic/claude-sonnet-5.5 vs google/gemini-4-hydrogen": {
+    "n": 300,
+    "exact": 0.48,
+    "opposite": 0.0
+   },
+   "anthropic/claude-sonnet-5.5 vs openai/gpt-6.1-terra": {
+    "n": 300,
+    "exact": 0.6833333333333333,
+    "opposite": 0.02
+   },
+   "google/gemini-4-hydrogen vs openai/gpt-6.1-terra": {
+    "n": 300,
+    "exact": 0.7366666666666667,
+    "opposite": 0.0
+   }
+  }
+ },
+ "absolute_vs_pairwise_sign": {
+  "agree": 214,
+  "one_zero": 76,
+  "opposite": 10
+ },
+ "survey_status": {
+  "unique_trials": 900,
+  "with_content": 900,
+  "errors_logged_total": 0
+ },
+ "refusal_like": {
+  "devout": 68,
+  "neutral": 60,
+  "atheist": 43
+ },
+ "cost_logged": {
+  "survey": 4.56266840432,
+  "pairwise": 2.903045,
+  "judge": 7.138291
+ }
+}
