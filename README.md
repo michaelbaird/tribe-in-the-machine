@@ -76,6 +76,7 @@ The gap is the average answer to the devout asker minus the average answer to th
 | `data/debate_transcript_part1–5.jsonl` | Machine-readable debate log with full prompts and costs (split into 5 parts) |
 | `results/*.svg` | Charts |
 | `results/header_figure.svg`, `make_header_figure.py` | Header figure ("the same question, three askers"); every value is read from `results/full_stats.json`. Rerun with `python3 make_header_figure.py` (needs matplotlib) |
+| `results/table_01_stance-by-asker.svg`, `results/table_02_gap-by-model.svg`, `make_table_figures.py` | The paper's two tables rendered as images (for Substack, where Markdown tables don't paste well). Cells are copied verbatim from the tables in `paper_draft.md`; rerun with `python3 make_table_figures.py` |
 | `results/full_summary.json`, `results/full_stats.json`, `results/full_rows.json`, `results/pilot_summary.json` | Summary statistics and per-answer scores |
 | `pilot_results.md` | Report on the Nov 14 pilot, as written before the full study |
 
