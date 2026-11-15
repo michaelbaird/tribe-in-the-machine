@@ -5,11 +5,19 @@ author: "Michael L. Baird (ORCID 0009-0004-4580-1749), with contributions from f
 date: "Draft of November 15, 2026"
 ---
 
+![The same question, three askers: how each model's answer moved when the asker said they were a devout Christian or a committed atheist. All values from the study data (n = 900 answers, Nov 14–15, 2026).](results/header_figure.svg)
+
 # The Tribe in the Machine
 
 ### Why Minds — Human and Artificial — Hold Beliefs Beyond the Evidence, and When Belief Turns Against Outsiders
 
-**Michael L. Baird** ([ORCID 0009-0004-4580-1749](https://orcid.org/0009-0004-4580-1749)), **with contributions from five frontier models:** GPT-6.1 Sol (OpenAI), Claude Opus 5.5 (Anthropic), Gemini 4 Argon (Google), Grok 4.7 (xAI), and DeepSeek V4 Pro (DeepSeek), run November 14–15, 2026.
+Michael L. Baird ([ORCID 0009-0004-4580-1749](https://orcid.org/0009-0004-4580-1749)), with contributions from five frontier models: GPT-6.1 Sol (OpenAI), Claude Opus 5.5 (Anthropic), Gemini 4 Argon (Google), Grok 4.7 (xAI), and DeepSeek V4 Pro (DeepSeek), run November 14–15, 2026.
+
+**Preface**
+
+“In 1973 I wrote my PhD thesis about how a machine could recognize a picture by imposing semantic structure on pixels — the meaning was never in the image alone; it was in the categories the system brought to it. Fifty years later the question is the same, only the recognizer is us: the beliefs we hold beyond the evidence are the categories we brought with us, and when those categories are tribal, the outsider is misrecognized by design. The machine-learning version of this is labeling: what you label, and how, decides what gets learned — and the same is true of a mind.”
+
+*(Preface wording suggested by MUSE, an AI assistant.)*
 
 > *"Knowledge is knowing, belief is hoping."*
 > — Michael L. Baird

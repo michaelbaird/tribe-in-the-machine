@@ -1,5 +1,7 @@
 # The Tribe in the Machine
 
+![The same question, three askers: each model's average judged stance with no stated identity, and how it moved for a devout-Christian or committed-atheist asker, on four questions](results/header_figure.svg)
+
 **Michael L. Baird** ([ORCID 0009-0004-4580-1749](https://orcid.org/0009-0004-4580-1749)), with contributions from five frontier AI models.
 
 > Substack essay: **[link to come]**
@@ -73,6 +75,7 @@ The gap is the average answer to the devout asker minus the average answer to th
 | `data/pilot_*.jsonl` | The smaller Nov 14 pilot |
 | `data/debate_transcript_part1–5.jsonl` | Machine-readable debate log with full prompts and costs (split into 5 parts) |
 | `results/*.svg` | Charts |
+| `results/header_figure.svg`, `make_header_figure.py` | Header figure ("the same question, three askers"); every value is read from `results/full_stats.json`. Rerun with `python3 make_header_figure.py` (needs matplotlib) |
 | `results/full_summary.json`, `results/full_stats.json`, `results/full_rows.json`, `results/pilot_summary.json` | Summary statistics and per-answer scores |
 | `pilot_results.md` | Report on the Nov 14 pilot, as written before the full study |
 
