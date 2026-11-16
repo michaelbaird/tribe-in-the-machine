@@ -9,6 +9,7 @@ authors:
 date-released: 2026-11-15
 version: "1.0"
 repository-code: "https://github.com/michaelbaird/tribe-in-the-machine"
+url: "https://mikebaird.substack.com/p/the-tribe-in-the-machine"
 license: CC-BY-4.0
 abstract: >-
   An essay and experiment on whether frontier AI models change their answers depending on the

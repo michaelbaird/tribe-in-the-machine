@@ -4,7 +4,7 @@
 
 **Michael L. Baird** ([ORCID 0009-0004-4580-1749](https://orcid.org/0009-0004-4580-1749)), with contributions from five frontier AI models.
 
-> Substack essay: **[link to come]**
+> Substack essay: **[The Tribe in the Machine](https://mikebaird.substack.com/p/the-tribe-in-the-machine)** · [Substack Note](https://substack.com/@mikebaird/note/c-388693334)
 
 ## What this is
 
@@ -89,7 +89,7 @@ for f in full_survey full_judgments debate_transcript; do cat data/${f}_part*.js
 ```
 
 - Charts are provided as SVG, which renders on GitHub.
-- The PDF and Word versions of the essay are binary files. They are listed in `pdf/README.md` and will be uploaded separately.
+- The PDF and Word versions of the essay are binary files. They were uploaded by hand to the [`pdf/`](pdf/) folder.
 
 ## How to reproduce
 
