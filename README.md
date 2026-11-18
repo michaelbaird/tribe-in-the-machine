@@ -35,6 +35,8 @@ The gap is the average answer to the devout asker minus the average answer to th
 
 ## Limitations (please read)
 
+An outside AI audit of the methods, by ChatGPT, is in [`appendix_chatgpt_audit.md`](appendix_chatgpt_audit.md).
+
 - **No human audit was performed.** All scoring relied on three LLM judges plus the side-by-side check.
   - The judges agreed strongly (quadratic-weighted κ 0.89–0.93).
   - But they come from three of the same companies as the subjects, so their errors may be correlated.
@@ -57,6 +59,7 @@ The gap is the average answer to the devout asker minus the average answer to th
 | `paper_draft.md` | The essay, Substack-ready (about 6,700 words plus signed statements and references) |
 | `pdf/README.md` | Where the PDF and Word versions are (see the note on binary files below) |
 | `results.md` | Full results: every interval, robustness check, hypothesis outcome, pilot comparison, and limitation |
+| `appendix_chatgpt_audit.md` | Appendix added Nov 17, 2026: an independent methodological and code audit written by ChatGPT (OpenAI). A static review, not a replication or a human audit |
 | `factcheck.md` | Fact-check log: every fix made to the draft |
 | `config_hashes.md` | SHA-256 hashes of configs and code frozen before data collection |
 | `protocol.md` | Study and debate protocol, as frozen. It still uses the word "pre-registration," which was later dropped. |
